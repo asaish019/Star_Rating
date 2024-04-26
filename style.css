@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#star_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.star_element {
+    font-size: 100px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.star_element .fillstar {
+    color: gold;
+}
+
+.star {
+    transition: transform 0.3s ease;
+}
